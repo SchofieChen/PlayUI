@@ -39,28 +39,25 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxSF = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxRADIOFREQUENCY = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxGATEWAYCHANNEL = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxNWKSKEY = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxDEVEUI = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxDEVADDR = new System.Windows.Forms.RichTextBox();
+            this.richTextBox_APPSKEY = new System.Windows.Forms.RichTextBox();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.AppEUI = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox_APPEUI = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label_ComportStatus = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -194,137 +191,109 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.richTextBox11);
-            this.panel6.Controls.Add(this.richTextBox10);
-            this.panel6.Controls.Add(this.richTextBox9);
-            this.panel6.Controls.Add(this.richTextBox8);
-            this.panel6.Controls.Add(this.richTextBox7);
-            this.panel6.Controls.Add(this.richTextBox6);
-            this.panel6.Controls.Add(this.richTextBox5);
-            this.panel6.Controls.Add(this.richTextBox3);
-            this.panel6.Controls.Add(this.richTextBox1);
+            this.panel6.Controls.Add(this.richTextBoxSF);
+            this.panel6.Controls.Add(this.richTextBoxRADIOFREQUENCY);
+            this.panel6.Controls.Add(this.richTextBoxGATEWAYCHANNEL);
+            this.panel6.Controls.Add(this.richTextBoxNWKSKEY);
+            this.panel6.Controls.Add(this.richTextBoxDEVEUI);
+            this.panel6.Controls.Add(this.richTextBoxDEVADDR);
+            this.panel6.Controls.Add(this.richTextBox_APPSKEY);
             this.panel6.Controls.Add(this.panel8);
-            this.panel6.Controls.Add(this.richTextBox2);
+            this.panel6.Controls.Add(this.richTextBox_APPEUI);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(346, 819);
+            this.panel6.Size = new System.Drawing.Size(489, 819);
             this.panel6.TabIndex = 2;
             // 
-            // richTextBox11
+            // richTextBoxSF
             // 
-            this.richTextBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.richTextBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox11.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox11.ForeColor = System.Drawing.SystemColors.Info;
-            this.richTextBox11.Location = new System.Drawing.Point(177, 573);
-            this.richTextBox11.Name = "richTextBox11";
-            this.richTextBox11.Size = new System.Drawing.Size(140, 25);
-            this.richTextBox11.TabIndex = 14;
-            this.richTextBox11.Text = "";
+            this.richTextBoxSF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.richTextBoxSF.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBoxSF.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.richTextBoxSF.ForeColor = System.Drawing.SystemColors.Info;
+            this.richTextBoxSF.Location = new System.Drawing.Point(177, 442);
+            this.richTextBoxSF.Name = "richTextBoxSF";
+            this.richTextBoxSF.Size = new System.Drawing.Size(309, 27);
+            this.richTextBoxSF.TabIndex = 13;
+            this.richTextBoxSF.Text = "";
             // 
-            // richTextBox10
+            // richTextBoxRADIOFREQUENCY
             // 
-            this.richTextBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.richTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox10.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox10.ForeColor = System.Drawing.SystemColors.Info;
-            this.richTextBox10.Location = new System.Drawing.Point(177, 510);
-            this.richTextBox10.Name = "richTextBox10";
-            this.richTextBox10.Size = new System.Drawing.Size(140, 25);
-            this.richTextBox10.TabIndex = 13;
-            this.richTextBox10.Text = "";
+            this.richTextBoxRADIOFREQUENCY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.richTextBoxRADIOFREQUENCY.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBoxRADIOFREQUENCY.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.richTextBoxRADIOFREQUENCY.ForeColor = System.Drawing.SystemColors.Info;
+            this.richTextBoxRADIOFREQUENCY.Location = new System.Drawing.Point(177, 379);
+            this.richTextBoxRADIOFREQUENCY.Name = "richTextBoxRADIOFREQUENCY";
+            this.richTextBoxRADIOFREQUENCY.Size = new System.Drawing.Size(309, 27);
+            this.richTextBoxRADIOFREQUENCY.TabIndex = 12;
+            this.richTextBoxRADIOFREQUENCY.Text = "";
             // 
-            // richTextBox9
+            // richTextBoxGATEWAYCHANNEL
             // 
-            this.richTextBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.richTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox9.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox9.ForeColor = System.Drawing.SystemColors.Info;
-            this.richTextBox9.Location = new System.Drawing.Point(177, 447);
-            this.richTextBox9.Name = "richTextBox9";
-            this.richTextBox9.Size = new System.Drawing.Size(140, 25);
-            this.richTextBox9.TabIndex = 12;
-            this.richTextBox9.Text = "";
+            this.richTextBoxGATEWAYCHANNEL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.richTextBoxGATEWAYCHANNEL.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBoxGATEWAYCHANNEL.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.richTextBoxGATEWAYCHANNEL.ForeColor = System.Drawing.SystemColors.Info;
+            this.richTextBoxGATEWAYCHANNEL.Location = new System.Drawing.Point(177, 321);
+            this.richTextBoxGATEWAYCHANNEL.Name = "richTextBoxGATEWAYCHANNEL";
+            this.richTextBoxGATEWAYCHANNEL.Size = new System.Drawing.Size(309, 27);
+            this.richTextBoxGATEWAYCHANNEL.TabIndex = 10;
+            this.richTextBoxGATEWAYCHANNEL.Text = "";
             // 
-            // richTextBox8
+            // richTextBoxNWKSKEY
             // 
-            this.richTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.richTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox8.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox8.ForeColor = System.Drawing.SystemColors.Info;
-            this.richTextBox8.Location = new System.Drawing.Point(177, 384);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.Size = new System.Drawing.Size(140, 25);
-            this.richTextBox8.TabIndex = 11;
-            this.richTextBox8.Text = "";
+            this.richTextBoxNWKSKEY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.richTextBoxNWKSKEY.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBoxNWKSKEY.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.richTextBoxNWKSKEY.ForeColor = System.Drawing.SystemColors.Info;
+            this.richTextBoxNWKSKEY.Location = new System.Drawing.Point(177, 258);
+            this.richTextBoxNWKSKEY.Name = "richTextBoxNWKSKEY";
+            this.richTextBoxNWKSKEY.Size = new System.Drawing.Size(309, 27);
+            this.richTextBoxNWKSKEY.TabIndex = 9;
+            this.richTextBoxNWKSKEY.Text = "";
             // 
-            // richTextBox7
+            // richTextBoxDEVEUI
             // 
-            this.richTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.richTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox7.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox7.ForeColor = System.Drawing.SystemColors.Info;
-            this.richTextBox7.Location = new System.Drawing.Point(177, 321);
-            this.richTextBox7.Name = "richTextBox7";
-            this.richTextBox7.Size = new System.Drawing.Size(140, 25);
-            this.richTextBox7.TabIndex = 10;
-            this.richTextBox7.Text = "";
+            this.richTextBoxDEVEUI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.richTextBoxDEVEUI.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBoxDEVEUI.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.richTextBoxDEVEUI.ForeColor = System.Drawing.SystemColors.Info;
+            this.richTextBoxDEVEUI.Location = new System.Drawing.Point(177, 195);
+            this.richTextBoxDEVEUI.Name = "richTextBoxDEVEUI";
+            this.richTextBoxDEVEUI.Size = new System.Drawing.Size(309, 27);
+            this.richTextBoxDEVEUI.TabIndex = 8;
+            this.richTextBoxDEVEUI.Text = "";
             // 
-            // richTextBox6
+            // richTextBoxDEVADDR
             // 
-            this.richTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.richTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox6.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox6.ForeColor = System.Drawing.SystemColors.Info;
-            this.richTextBox6.Location = new System.Drawing.Point(177, 258);
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.Size = new System.Drawing.Size(140, 25);
-            this.richTextBox6.TabIndex = 9;
-            this.richTextBox6.Text = "";
+            this.richTextBoxDEVADDR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.richTextBoxDEVADDR.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBoxDEVADDR.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.richTextBoxDEVADDR.ForeColor = System.Drawing.SystemColors.Info;
+            this.richTextBoxDEVADDR.Location = new System.Drawing.Point(177, 132);
+            this.richTextBoxDEVADDR.Name = "richTextBoxDEVADDR";
+            this.richTextBoxDEVADDR.Size = new System.Drawing.Size(309, 27);
+            this.richTextBoxDEVADDR.TabIndex = 7;
+            this.richTextBoxDEVADDR.Text = "";
             // 
-            // richTextBox5
+            // richTextBox_APPSKEY
             // 
-            this.richTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox5.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox5.ForeColor = System.Drawing.SystemColors.Info;
-            this.richTextBox5.Location = new System.Drawing.Point(177, 195);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(140, 25);
-            this.richTextBox5.TabIndex = 8;
-            this.richTextBox5.Text = "";
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox3.ForeColor = System.Drawing.SystemColors.Info;
-            this.richTextBox3.Location = new System.Drawing.Point(177, 132);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(140, 25);
-            this.richTextBox3.TabIndex = 7;
-            this.richTextBox3.Text = "";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox1.ForeColor = System.Drawing.SystemColors.Info;
-            this.richTextBox1.Location = new System.Drawing.Point(177, 69);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(140, 25);
-            this.richTextBox1.TabIndex = 6;
-            this.richTextBox1.Text = "";
+            this.richTextBox_APPSKEY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.richTextBox_APPSKEY.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox_APPSKEY.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.richTextBox_APPSKEY.ForeColor = System.Drawing.SystemColors.Info;
+            this.richTextBox_APPSKEY.Location = new System.Drawing.Point(177, 69);
+            this.richTextBox_APPSKEY.Name = "richTextBox_APPSKEY";
+            this.richTextBox_APPSKEY.Size = new System.Drawing.Size(309, 27);
+            this.richTextBox_APPSKEY.TabIndex = 6;
+            this.richTextBox_APPSKEY.Text = "";
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.label10);
             this.panel8.Controls.Add(this.label9);
             this.panel8.Controls.Add(this.label8);
-            this.panel8.Controls.Add(this.label7);
             this.panel8.Controls.Add(this.label6);
             this.panel8.Controls.Add(this.label5);
             this.panel8.Controls.Add(this.label4);
@@ -337,24 +306,12 @@
             this.panel8.Size = new System.Drawing.Size(171, 819);
             this.panel8.TabIndex = 5;
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label10.ForeColor = System.Drawing.SystemColors.Info;
-            this.label10.Location = new System.Drawing.Point(6, 573);
-            this.label10.MinimumSize = new System.Drawing.Size(10, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(143, 22);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "SF Data Rate：";
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label9.ForeColor = System.Drawing.SystemColors.Info;
-            this.label9.Location = new System.Drawing.Point(6, 510);
+            this.label9.Location = new System.Drawing.Point(3, 442);
             this.label9.MinimumSize = new System.Drawing.Size(10, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(54, 22);
@@ -366,31 +323,19 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label8.ForeColor = System.Drawing.SystemColors.Info;
-            this.label8.Location = new System.Drawing.Point(6, 447);
+            this.label8.Location = new System.Drawing.Point(3, 379);
             this.label8.MinimumSize = new System.Drawing.Size(10, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(172, 22);
             this.label8.TabIndex = 13;
             this.label8.Text = "Radio Frequency：";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label7.ForeColor = System.Drawing.SystemColors.Info;
-            this.label7.Location = new System.Drawing.Point(6, 384);
-            this.label7.MinimumSize = new System.Drawing.Size(10, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(152, 22);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "LoRa Channel：";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label6.ForeColor = System.Drawing.SystemColors.Info;
-            this.label6.Location = new System.Drawing.Point(6, 321);
+            this.label6.Location = new System.Drawing.Point(-4, 321);
             this.label6.MinimumSize = new System.Drawing.Size(10, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(179, 22);
@@ -457,20 +402,21 @@
             this.AppEUI.TabIndex = 0;
             this.AppEUI.Text = "AppEUI：";
             // 
-            // richTextBox2
+            // richTextBox_APPEUI
             // 
-            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.richTextBox2.ForeColor = System.Drawing.SystemColors.Info;
-            this.richTextBox2.Location = new System.Drawing.Point(177, 6);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(140, 25);
-            this.richTextBox2.TabIndex = 4;
-            this.richTextBox2.Text = "";
+            this.richTextBox_APPEUI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.richTextBox_APPEUI.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox_APPEUI.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.richTextBox_APPEUI.ForeColor = System.Drawing.SystemColors.Info;
+            this.richTextBox_APPEUI.Location = new System.Drawing.Point(177, 6);
+            this.richTextBox_APPEUI.Name = "richTextBox_APPEUI";
+            this.richTextBox_APPEUI.Size = new System.Drawing.Size(309, 27);
+            this.richTextBox_APPEUI.TabIndex = 4;
+            this.richTextBox_APPEUI.Text = "";
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label_ComportStatus);
             this.panel1.Controls.Add(this.button_Connect);
             this.panel1.Controls.Add(this.button_Disconnect);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -478,6 +424,19 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1080, 39);
             this.panel1.TabIndex = 8;
+            // 
+            // label_ComportStatus
+            // 
+            this.label_ComportStatus.AutoSize = true;
+            this.label_ComportStatus.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label_ComportStatus.Font = new System.Drawing.Font("新細明體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label_ComportStatus.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.label_ComportStatus.Location = new System.Drawing.Point(305, 0);
+            this.label_ComportStatus.Name = "label_ComportStatus";
+            this.label_ComportStatus.Size = new System.Drawing.Size(67, 22);
+            this.label_ComportStatus.TabIndex = 12;
+            this.label_ComportStatus.Text = "Closed";
+            this.label_ComportStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Form2
             // 
@@ -500,6 +459,7 @@
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -516,26 +476,23 @@
         private System.Windows.Forms.ComboBox comboBox_baud;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.RichTextBox richTextBox11;
-        private System.Windows.Forms.RichTextBox richTextBox10;
-        private System.Windows.Forms.RichTextBox richTextBox9;
-        private System.Windows.Forms.RichTextBox richTextBox8;
-        private System.Windows.Forms.RichTextBox richTextBox7;
-        private System.Windows.Forms.RichTextBox richTextBox6;
-        private System.Windows.Forms.RichTextBox richTextBox5;
-        private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBoxSF;
+        private System.Windows.Forms.RichTextBox richTextBoxRADIOFREQUENCY;
+        private System.Windows.Forms.RichTextBox richTextBoxGATEWAYCHANNEL;
+        private System.Windows.Forms.RichTextBox richTextBoxNWKSKEY;
+        private System.Windows.Forms.RichTextBox richTextBoxDEVEUI;
+        private System.Windows.Forms.RichTextBox richTextBoxDEVADDR;
+        private System.Windows.Forms.RichTextBox richTextBox_APPSKEY;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label AppEUI;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBox_APPEUI;
+        private System.Windows.Forms.Label label_ComportStatus;
     }
 }
